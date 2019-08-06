@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { Component1Component } from './Scenario1/component1/component1.component';
 import { S2Component1Component } from './Scenario2/s2-component1/s2-component1.component';
 import { FormsModule }   from '@angular/forms';
+import { S3Component1Component } from './Scenario3/s3-component1/s3-component1.component';
+import { S3Component2Component } from './Scenario3/s3-component2/s3-component2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Component1Component,
     S2Component1Component,
+    S3Component1Component,
+    S3Component2Component,
   ],
   imports: [
     BrowserModule,
