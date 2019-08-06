@@ -10,6 +10,9 @@ import { S3Component1Component } from './Scenario3/s3-component1/s3-component1.c
 import { S3Component2Component } from './Scenario3/s3-component2/s3-component2.component';
 import { S4Component1Component } from './Scenario4/s4-component1/s4-component1.component';
 import { S4Component2Component } from './Scenario4/s4-component2/s4-component2.component';
+import { S5Component1Component } from './Scenario5/s5-component1/s5-component1.component';
+import { S5Component2Component } from './Scenario5/s5-component2/s5-component2.component';
+import { S5Component3Component } from './Scenario5/s5-component3/s5-component3.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,9 @@ import { S4Component2Component } from './Scenario4/s4-component2/s4-component2.c
     S3Component2Component,
     S4Component1Component,
     S4Component2Component,
+    S5Component1Component,
+    S5Component2Component,
+    S5Component3Component,
   ],
   imports: [
     BrowserModule,
